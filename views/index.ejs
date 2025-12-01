@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trivia Trek</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Trivia Trek</h1>
+      <p class="description">Test your knowledge! Select your settings below to begin.</p>
+      
+      <form action="/game" method="GET">
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select name="category" id="category">
+            <option value="any">Any Category</option>
+            <option value="9">General Knowledge</option>
+            <option value="17">Science & Nature</option>
+            <option value="23">History</option>
+            <option value="11">Film</option>
+            <option value="18">Computers</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="difficulty">Difficulty</label>
+          <select name="difficulty" id="difficulty">
+            <option value="any">Any Difficulty</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+
+        <button type="submit">Start Game</button>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "trivia-trek-game",
+  "version": "1.0.0",
+  "description": "A simple trivia game using Open Trivia DB",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
