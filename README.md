@@ -1,8 +1,8 @@
 # Trivia Trek - OIT Coding Challenge Submission
 
-A trivia game built for the Code Challenge "Trivia Trek". This application fetches random questions from the Open Trivia Database API and presents them in an interactive, clean interface.
+This is a trivia game that I built for the coding challenge. The web app fetches random questions from the Open Trivia Database API based on category and challenge level.
 
-## How to Run the Project
+## Setup 
 
 1.  **Clone or Download** this repository.
 2.  Navigate to the project folder in your terminal.
@@ -18,19 +18,15 @@ A trivia game built for the Code Challenge "Trivia Trek". This application fetch
 
 ## Tools & Libraries Used
 
-* **Node.js & Express**: For the backend server and routing.
-* **EJS (Embedded JavaScript)**: For server-side rendering of the views.
-* **Open Trivia DB API**: The external source for dynamic trivia questions.
-* **CSS Grid/Flexbox**: For a responsive, card-based UI design.
-* **Vanilla JavaScript**: For client-side game logic (scoring, immediate feedback) to keep the app lightweight.
+* **Node.js & Express**
+* **EJS**
+* **Open Trivia DB API**
+* **CSS Grid/Flexbox**
+* **JavaScript**
 
 ## Future Improvements 
 
-If I had more time, I would implement the following features:
-
-1.  **Timer**: Add a countdown timer for each question to increase difficulty.
-2.  **High Scores**: Use a database to persist high scores and display a leaderboard.
-4.  **Animations**: Add smooth transitions between questions and feedback animations for correct/incorrect answers.
+In the future, I think that I would've focused on more options for the user. Possibly more categories or difficulty levels. I also think that it would be fun from a UX perspective to have added a timer to the questions and maybe even a leaderboard or highscore.
 
 ## Project Structure
 
