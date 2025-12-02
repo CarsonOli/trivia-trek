@@ -32,9 +32,6 @@
     </main>
 
     <script>
-      // Retrieve questions sent from server. 
-      // The server already JSON.stringified the data, so we can output it directly here.
-      // This is safe because EJS's <%- %> tag outputs the raw string.
       const questions = <%- questions %>; 
       
       let currentQuestionIndex = 0;
